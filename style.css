@@ -142,7 +142,7 @@ body {
         padding: 30px;
     }
 
-    .ajax-section .cities {
+    .cities {
         grid-template-columns: repeat(3, 1fr);
     }
 }
@@ -150,13 +150,11 @@ body {
 @media screen and (max-width: 700px) {
 
     .heading,
-    .ajax-section .city-temp {
+    .city-temp {
         font-size: 3rem;
     }
 
-    .ajax-section {
-        margin-top: 20px;
-    }
+    
 
     .top-banner form {
         flex-direction: column;
@@ -179,7 +177,7 @@ body {
         margin-top: 10px;
     }
 
-    .ajax-section .cities {
+    .cities {
         grid-template-columns: repeat(2, 1fr);
     }
 }
@@ -189,7 +187,7 @@ body {
         padding: 15px;
     }
 
-    .ajax-section .cities {
+    .cities {
         grid-template-columns: repeat(1, 1fr);
     }
 }
