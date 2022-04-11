@@ -20,7 +20,7 @@ app.post("/", function (req, res) {
 
     const query = req.body.cityName;
 
-    const apiKey = 'e372a354bb5da64b774c410dcaa6f4ef';
+    //const apiKey = 'Your API goes here';
 
     const unit = 'metric';
 
